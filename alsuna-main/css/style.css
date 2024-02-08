@@ -1,0 +1,294 @@
+
+
+
+
+
+
+
+nav{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+   
+}
+
+nav input{
+    background: #009847;
+    border: 1px solid #009847;
+    color: white;
+    font-size: 24px;
+    border-radius: 20px;
+    padding-right: 38px;
+    padding-left: 38px;
+    transition: all 0.3s;
+    transform: scale(1);
+}
+
+nav input:hover{
+    transform: scale(1.1);
+    color: #009847;
+    background: white;
+  
+}
+nav input:active{
+    transform: scale(1.2); 
+}
+
+
+
+
+.menu{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 24px;
+    color: #506690;
+    opacity: 70%;
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.menu:hover{
+    transform: scale(1.1);
+}
+.menu:active{
+    transform: scale(1.2);
+    
+}
+
+.inputnav{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.main{
+    margin-left: 11%;
+    margin-top: 9%;
+}
+
+.alsuna{
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.maintext{
+    width: 35%;
+    font-size: 22px;
+    color: #869AB8;
+    opacity: 70%;
+    margin-bottom: 2%;
+}
+.main input{
+  float: left;
+   margin-right: 2%;
+    border-radius: 6px;  
+    font-size: 17px;
+    width: 10%;
+    text-align: center;
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.about{
+    border: 1px solid #009847;
+    background: #009847;
+    color: white;
+    border-radius: 6px;
+    padding: 14px 0 14px 0;
+    
+}
+.gallery{
+    border: 1px solid #E0F1E4;
+    background: #E0F1E4;
+    color: #009847;
+    border-radius: 6px;
+    padding: 14px 0 14px 0;
+}
+.about:hover{
+    transform: scale(1.1);
+    color: #009847;
+    background: white;
+}
+.about:active{
+    transform: scale(1.2);
+}
+.gallery:hover{
+    transform: scale(1.1);
+    background: white;
+    border-color: #009847;
+}
+.gallery:active{
+    transform: scale(1.2);
+}
+
+
+@media (width: 1920px){
+    .main{
+        margin-top: 15%;
+    }
+    body{
+        background-size: 600px auto; 
+        background-position: 80% 45%;
+    }
+}
+
+@media (min-width: 1980px){
+    .menu{
+        font-size: 30px;
+    }
+    nav input{
+        font-size: 30px;
+    }
+}
+@media (max-height:1832px){
+    body{
+        background-position: 80% 50%;
+    }
+@media (max-width: 1676px){
+    body{
+        background-size: auto 450px;
+    }
+}
+
+@media (max-width: 1540px){
+    body{
+        background-size: auto 350px;
+    }
+    .menu{
+        font-size: 20px;
+    }
+    nav input{
+        font-size: 20px;
+        padding-right: 28px;
+        padding-left: 28px;
+        
+    }
+    .alsuna{
+        font-size: 25px;
+    }
+    .alsuna span{
+        font-size: 30px;
+    }
+    .maintext{
+        font-size: 18px;
+    }
+    .main input{
+        font-size: 16px;
+        
+    }
+    nav img{
+        width: 220px;
+    }
+}
+@media (max-width: 1100px){
+    body{
+        background-size: auto 300px;
+    }
+    .menu{
+        font-size: 18px;
+    }
+    nav input{
+        font-size: 18px;
+        padding-right: 23px;
+        padding-left: 23px;
+    }
+    nav img{
+        width: 200px;
+    }
+    .alsuna{
+        font-size: 23px;
+    }
+    .alsuna span{
+        font-size: 28px;
+    }
+    .maintext{
+        font-size: 16px;
+    }
+    .main input{
+        font-size: 14px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+}
+
+@media(max-width: 850px){
+    nav img{
+        width: 180px;
+    }
+   .menu{
+        font-size: 16px;
+    }
+    nav input{
+        font-size: 16px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+     .alsuna{
+        font-size: 20px;
+    }
+    .alsuna span{
+        font-size: 25px;
+    }
+    .maintext{
+        font-size: 13px;
+    }
+     body{
+        background-size: auto 260px;
+    }
+}
+@media(max-width: 700px){
+    nav img{
+        width: 160px;
+    }
+   .menu{
+        font-size: 14px;
+    }
+    nav input{
+        font-size: 14px;
+        padding-right: 17px;
+        padding-left: 17px;
+    }
+     .alsuna{
+        font-size: 17px;
+    }
+    .alsuna span{
+        font-size: 22px;
+    }
+    .maintext{
+        font-size: 13px;
+    }
+     body{
+        background-size: auto 230px;
+    }
+}
+@media(max-width: 640px){
+    nav img{
+        width: 130px;
+    }
+   .menu{
+        font-size: 12px;
+    }
+    nav input{
+        font-size: 12px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+     .alsuna{
+        font-size: 15px;
+    }
+    .alsuna span{
+        font-size: 20px;
+    }
+    .maintext{
+        font-size: 13px;
+    }
+     body{
+        background-size: auto 200px;
+    }
+}
+@media (max-width: 479px){
+    
+}
+
+
